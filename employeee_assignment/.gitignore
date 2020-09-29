@@ -1,4 +1,8 @@
 #Avoid
-**/resources
-/target
-/.settings
+.classpath
+.project
+.settings/
+ 
+# Maven
+log/
+target/
