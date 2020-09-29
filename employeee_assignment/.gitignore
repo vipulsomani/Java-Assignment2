@@ -1,0 +1,4 @@
+#Avoid
+**/resources
+/target
+/.settings
