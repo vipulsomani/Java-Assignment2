@@ -3,10 +3,6 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
-import org.junit.Test;
-
-import junit.framework.*;
-import junit.framework.TestCase;
 public class TestRectangle{
 	Rectangle rectangle =new Rectangle(10, 5);
 	@Test
