@@ -4,8 +4,9 @@ public class NoOfDuplicates {
 	int count;
 	int cnt;
 
-	public int countDuplicate(char s[], int n) {
+	public int countDuplicate(String str, int n) {
 		cnt = 0;
+		char []s = str.toCharArray();
 		for (int i = 0; i < n; i++) {
 			count = 1;
 			for (int j = i + 1; j < n; j++) {
